@@ -22,17 +22,20 @@ Module 10 DOF MPU9250 + BMP280
 
 ### Barometr schema
 This is a schema for all the wireing with arduino
-![alt text]()
+![alt text](https://github.com/syrianah/On_Board_Computer/blob/master/Barometer/BMP280_arduino_schema.jpg)
+
+### Library
+[link](https://github.com/syrianah/On_Board_Computer/tree/master/Barometer/I2C-Sensor-Lib_iLib)
 
 ### Height measure code
-![alt text]()
+[code](https://github.com/syrianah/On_Board_Computer/blob/master/Barometer/miernik_wysokosci_proccesing.ino)
 
 ## GPS
 NEO-6M GPS Module is to measure location of the rocket (latitude, longitude, height).
 
 ### GPS schema
 This is a schema for all the wireing with arduino
-![alt text]()
+![alt text](https://github.com/syrianah/On_Board_Computer/blob/master/GPS/NEO_6M_Arduino_schema.png)
 
 ### GPS wireing
 | NEO-6M GPS Module | Adruino |
@@ -43,7 +46,7 @@ This is a schema for all the wireing with arduino
 |          GND         |        GND      |
 
 ### Tiny GPS Plus Library
-![link](https://github.com/mikalhart/TinyGPSPlus/archive/master.zip)
+[link](https://github.com/mikalhart/TinyGPSPlus/archive/master.zip)
 
 ## MicroSD Card Adapter
 Save date to files
